@@ -19,3 +19,15 @@ text.style.color = "Blue";
 text.style.backgroundColor = "Yellow";
 
 text.classList.add("change");
+
+changeColor.addEventListener("click", function(){
+	text.classList.toggle("change");
+})
+
+const userList = document.querrySelectorAll(".luck-list li");
+
+for(Luck of luck-list){
+	user.addEventListener("lick", function(){
+		this.style.color = "red";
+	});
+}
